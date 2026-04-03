@@ -99,13 +99,6 @@ function App() {
     setEditingId(null);
   };
 
-/**
- * onChange={(e: React.ChangeEvent<HTMLInputElement>) =>{
- * React.ChangeEvent<HTMLInputElement> is type of e.
- * (1) ChangeEvent This is a type provided by React for events like:onChange,onInput.It represents the event object (e).
- * (2) <HTMLInputElement> is a generic type parameter.It tells TypeScript: “This event comes from an <input> element”
- * So now TS knows: e.target.value   // ✅ string
- */
   return (
     <div style={{ padding: "40px" }}>
       {error && (
