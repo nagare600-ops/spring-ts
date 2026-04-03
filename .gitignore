@@ -1,0 +1,17 @@
+# Java
+backend/target/
+*.log
+
+# Eclipse
+backend/.project
+backend/.classpath
+backend/.settings/
+
+# Node
+frontend/node_modules/
+frontend/build/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
